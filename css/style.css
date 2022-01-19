@@ -5,3 +5,33 @@
     margin: 0;
     padding: 0;
 }
+
+
+.container{
+    padding: 20px 50px;
+}
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.top-container{
+    margin: 0 auto;
+    width: 100%;
+    height: 120px;
+    background-color: aqua;
+    margin-bottom: 20px;
+}
+
+.jumbotron{
+    width: 100%;
+    height: 350px;
+    background-color: burlywood;
+}
+
+
+.ft-left{
+    float: left;
+}
